@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Main" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Theme for splash screen -->
+    <style name="Theme.SplashScreen_SQLite" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#A3B1DA</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/sqlite</item>
+
+        <!-- theme after hide splash screen -->
+        <item name="postSplashScreenTheme">@style/Theme.Main</item>
+
+        <!-- no more to 1000ms -->
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+    </style>
+</resources>
